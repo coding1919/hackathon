@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Health Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Virtual Health Assistant</h1>
+        <form>
+            <input id="user-input" type="text" placeholder="Enter your symptoms or condition">
+            <button id="submit-btn">Submit</button>
+        </form>
+        <div id="output-area"></div>
+        <canvas id="graph-area" style="display:none;"></canvas>
+        <canvas id="diseaseChart" style="display:none;"></canvas>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
